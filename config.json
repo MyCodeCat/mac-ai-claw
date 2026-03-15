@@ -20,6 +20,7 @@
         ]
     },
     "config": {
+        "_comment": "OPEN_WEATHER_APPID：天气key，DEFAULT_DOWNLOAD_PATH：下载路径",
         "OPEN_WEATHER_APPID": "open weather appid",
         "DEFAULT_DOWNLOAD_PATH": "/Users/macbook/Downloads"
     }

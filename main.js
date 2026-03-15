@@ -108,7 +108,7 @@ const SYSTEM_PROMPT = `你是一个能调用工具的助手。当前操作系统
 9. **工具执行的结果会以 system 消息的形式出现在对话历史中，你可以直接使用其中的数据。**
 10. **工具编写规则（重要！）**：
     - **环境限制**：当前运行环境是**原生 Node.js**，**仅支持内置模块**（如 \`fs\`、\`path\`、\`http\`、\`https\`、\`child_process\` 等）。**禁止使用 \`fetch\` API**（浏览器环境特有），也**禁止使用任何需要 \`npm install\` 安装的第三方模块**（如 \`axios\`、\`node-fetch\`）。编写工具代码时，必须使用 Node.js 内置模块。
-    - 如果用户要求你“写一个工具”或“添加功能”，你必须使用 \`writeFile\` 工具将代码写入 \`/Users/macbook/project/web_projects/demo/mac_ai/tools/\` 目录下，文件名必须以 \`.js\` 结尾。
+    - 如果用户要求你“写一个工具”或“添加功能”，你必须使用 \`writeFile\` 工具将代码写入当前目录的下的tools文件夹里，文件名必须以 \`.js\` 结尾。
     - 每个工具文件应导出一个对象，对象的每个属性就是一个工具。例如：
       \`\`\`javascript
       module.exports = {

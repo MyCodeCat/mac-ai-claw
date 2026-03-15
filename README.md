@@ -11,3 +11,7 @@
 ```js
 node main.js
 ```
+
+## ai 模型
+- deep seek
+- 魔塔社区（默认）：免费的
