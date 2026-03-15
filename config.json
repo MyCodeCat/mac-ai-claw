@@ -1,0 +1,26 @@
+{
+    "ds": {
+        "API_KEY": "deep seek api key",
+        "API_URL": "api.deepseek.com",
+        "MODEL": [
+            "deepseek-chat"
+        ]
+    },
+    "qw": {
+        "API_KEY": "魔塔社区 api key",
+        "API_URL": "api-inference.modelscope.cn",
+        "MODEL": [
+            "Qwen/Qwen3-235B-A22B-Instruct-2507",
+            "deepseek-ai/DeepSeek-V3.2",
+            "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+            "Qwen/Qwen3-32B",
+            "Qwen/Qwen3-8B",
+            "Qwen/Qwen3-4B",
+            "Qwen/Qwen3-1.7B"
+        ]
+    },
+    "config": {
+        "OPEN_WEATHER_APPID": "open weather appid",
+        "DEFAULT_DOWNLOAD_PATH": "/Users/macbook/Downloads"
+    }
+}
