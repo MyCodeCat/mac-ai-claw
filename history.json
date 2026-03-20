@@ -1,10 +1,3 @@
 [
-  {
-    "role": "user",
-    "content": "生成一张厦门地区分布图"
-  },
-  {
-    "role": "assistant",
-    "content": "厦门市行政区划分布图已生成，您可以通过以下链接查看和下载：\n\n1. **静态地图预览和下载**：[点击查看和下载](https://mdn.alipayobjects.com/one_clip/afts/img/6kB0TZIem1IAAAAAR3AAAAgAoEACAQFr/original)\n2. **动态交互地图页面**：[在线查看交互地图](https://render.alipay.com/p/yuyan/180020010001275218/choropleth-map.html?caprMode=sync&id=f983984e7bce4fe0b9fb503869e9b83d&recordId=0b24907e17740230882628193ef29d)\n3. **手机扫码查看（支付宝扫一扫）**：[二维码链接](https://mdn.alipayobjects.com/dituhuiservice/afts/img/_KFnQ7afFYgAAAAAQDAAAAgAetugAQFr/original)\n\n如需进一步操作或获取更多信息，请随时告诉我！"
-  }
+  
 ]
