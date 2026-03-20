@@ -2,7 +2,7 @@ const https = require('https');
 
 const tools = {
     getWeather: {
-        fun: async(city) => {
+        fun: async({ city }) => {
             const appid = process.env.OPEN_WEATHER_APPID
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${appid}&units=metric`;
             return new Promise((resolve, reject) => {

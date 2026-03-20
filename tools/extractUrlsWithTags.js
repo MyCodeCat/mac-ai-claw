@@ -5,7 +5,7 @@ const fs = require('fs');
 const { exec } = require('child_process');
 
 // 从 HTML 中提取所有 https:// 链接及其所属标签和属性
-function extractUrlsWithTags(html) {
+function extractUrlsWithTags({ html }) {
     const items = [];
     const tagRegex = /<(\w+)([^>]*)>/g;
     let tagMatch;

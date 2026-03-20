@@ -1,13 +1,13 @@
 {
     "ds": {
-        "API_KEY": "deep seek api key",
+        "API_KEY": "your api key",
         "API_URL": "api.deepseek.com",
         "MODEL": [
             "deepseek-chat"
         ]
     },
     "qw": {
-        "API_KEY": "魔塔社区 api key",
+        "API_KEY": "your api key",
         "API_URL": "api-inference.modelscope.cn",
         "MODEL": [
             "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -19,9 +19,14 @@
             "Qwen/Qwen3-1.7B"
         ]
     },
+    "mcps": {
+        "fetch": {
+            "type": "streamable_http",
+            "url": "https://mcp.api-inference.modelscope.net/c00ae9fb4fc443/mcp"
+        }
+    },
     "config": {
-        "_comment": "OPEN_WEATHER_APPID：天气key，DEFAULT_DOWNLOAD_PATH：下载路径",
-        "OPEN_WEATHER_APPID": "open weather appid",
+        "OPEN_WEATHER_APPID": "your weather appid",
         "DEFAULT_DOWNLOAD_PATH": "/Users/macbook/Downloads"
     }
 }

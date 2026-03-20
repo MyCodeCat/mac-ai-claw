@@ -20,7 +20,7 @@ function getExtensionByType(contentType) {
 
 module.exports = {
     smartDownload: {
-        fun: async(url) => {
+        fun: async({ url }) => {
             return new Promise((resolve, reject) => {
                 const client = url.startsWith('https') ? https : http;
                 const saveDir = process.env.DEFAULT_DOWNLOAD_PATH

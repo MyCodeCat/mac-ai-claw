@@ -5,7 +5,7 @@ const fs = require('fs');
 const { exec } = require('child_process');
 
 // 提取文本
-function extractPlainText(html) {
+function extractPlainText({ html }) {
     if (typeof html !== 'string') return '';
 
     // 1. 移除 <script> 和 <style> 标签及其内部内容（包括可能的属性）

@@ -1,6 +1,6 @@
 module.exports = {
     calculate: {
-        fun: async(value = '') => {
+        fun: async({ value }) => {
             const { exec } = require('child_process');
 
             // 逆波兰转换（调度场算法）
